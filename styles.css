@@ -1,4 +1,7 @@
 /*  your css code here. If applicable */
+.myModal{
+	display:none;
+}
 .modal-content {
   background-color: #fefefe;
   margin: 15% auto; 
@@ -9,6 +12,7 @@
 }
 
 /* Modal Header */
+
 .modal-header {
   padding: 10px 16px;
   background-color: #5cb85c;
