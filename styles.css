@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Close Button */
+.close-modal {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-body {
+  padding: 10px 16px;
+}
